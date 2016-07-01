@@ -1,0 +1,204 @@
+/* ######  It's commnet to code css for google site #####*/
+/* ##### CSS by header ##### */
+.header {
+	margin: 0px 0px 10px 10px;
+	font-family: arial;
+	font-size: 0.8em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+
+#header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	/* align-content: space-around;*/
+}
+/* #######    Cette partie du code devait permettre une bonne mise en route*/
+/*.header:nth-child(1){}
+
+.header:nth-child(2){}
+
+.header:nth-child(3){}
+
+.header:nth-child(4){}*/
+
+.topimage{ 
+	width: 20px;
+	height: 20px;
+	color: #000;
+	margin-left: 0px;
+	
+
+ }
+
+.header a{
+	text-decoration: none;
+	
+	
+}
+a:hover{
+
+	background-color: #888;
+	text-decoration: underline;
+}
+
+.connexion{ 
+	color: #fff;
+	background-color: #4285f4;
+	font-family: arial;
+	font-size: 0.8em;
+	width: 65px;
+	height: 16px;
+	text-decoration: none;
+	padding: 3px 10px 5px 10px;
+	margin-right:10px; 
+	/*float: right;*/
+	text-align: center;
+	font-weight: bold;
+
+ }
+
+ /* #### End header google #####*/
+
+ /*  ### CSS Classe Image Google #####*/
+
+ .lecorps{
+ 	width: 400px;
+ 	height: 130px;
+ 	
+ 	display: flex;
+ 	justify-content: flex-center;
+ 	margin-top: 130px;
+ 	margin-left:370px;
+ 	clear: both;
+
+ }
+/*  ####  End CSS Image google #### */
+
+/*  #### CSS By form #####*/
+
+ #form{
+
+ 	text-align: center;
+ }
+
+ .form{
+		width: 800px;
+		height: 30px,
+
+
+ }
+ .form:hover{
+
+ 	border-color: #4580f5;
+ }
+
+ .primero {
+
+ 	width: 600px;
+ 	height: 40px;
+ 	margin-left: 300px;
+ }
+
+ .droite{
+
+ 	float: right;
+ 	margin-top: 20px;
+ 	width: 150px;
+ 	height: 30px;
+ 	background-color: #f7f7f7;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-family: arial;
+ 	font-size:0.8em;
+ 	color:#222222;
+ 	border-color: transparent;
+
+ }
+ .droite:hover{
+ 	background-color: #888;
+ 	color:#F4F4F4;
+ }
+
+ .gauche{
+
+ 	float: left;
+ 	
+ 	margin-top: 20px;
+ 	margin-left: 400px;
+ 	width: 150px;
+ 	height: 30px;
+ 	background-color: #f7f7f7;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-family: arial;
+ 	font-size:0.8em;
+ 	color:#222222;
+ 	border-color: transparent;
+ }
+ .gauche:hover{
+ 	background-color: #888;
+ 	color:#F4F4F4;
+ }
+
+ /*  ### Css by all form and class left by left fort and class right by right form*/
+
+
+/* ###### CSS by footer and element inside ####*/
+ #footer{
+
+ 	margin-top: 230px;
+ 	height: 40px;
+ 	background-color: #F2F2F2;
+ 	bottom: 0px;
+ 	position: fixed;
+ 	width: 100%;
+
+ }
+.imany{
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+
+}
+ div .footer{
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .ntoto{
+
+ 	display: flex;
+ 	justify-content: flex-start;
+ 	width: 100px;
+ 	padding-top: 15px;
+ 	font-family: arial;
+ 	font-size:0.8em;
+ 	margin: auto;
+ }
+ .ntoto:hover{
+ 	text-decoration: underline;
+
+ }
+
+ .bakala {
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	width: 120px;
+ 	padding-top: 15px;
+ 	font-family: arial;
+ 	font-size:0.8em;
+ 	margin: auto;
+
+ }
+
+ .bakala:hover{
+ 	text-decoration: underline;
+ }
+
+ /* ### Temporary end off css page ###*/
